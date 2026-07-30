@@ -1,8 +1,28 @@
 aid: manomano
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/manomano.png
 name: ManoMano
-description: 'ManoMano is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Marketplace. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  ManoMano is Europe's leading online marketplace dedicated to DIY, home
+  improvement and gardening, operating consumer storefronts across France,
+  Germany, Italy, Spain and the United Kingdom plus a ManoManoPro offering for
+  construction professionals and craftsmen. Founded in France and backed by
+  Partech, it connects millions of DIY, tools, heating, electrical, kitchen,
+  bathroom, flooring and garden products from thousands of third-party sellers
+  and brands to individuals and trade buyers. This API Evangelist profile was
+  added as a portfolio-company stub; enrichment found a consumer marketplace
+  with a published llms.txt and help center, but no public developer, seller or
+  partner API surface (no developer portal, OpenAPI, or API subdomain resolves).
 url: https://raw.githubusercontent.com/api-evangelist/manomano/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Marketplace
+- DIY
+- Home Improvement
+- Gardening
+- E-commerce
+- Retail
+- France
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.manomano.co.uk/
+  url: https://www.manomano.fr/
+- type: Support
+  url: https://www.manomano.co.uk/contact
+- type: HelpCenter
+  url: https://faq.manomano.com
+- type: LLMsTxt
+  url: llms/manomano-llms.txt
+- type: DomainSecurity
+  url: security/manomano-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
